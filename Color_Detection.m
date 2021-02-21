@@ -2,7 +2,7 @@ clc
 clear
 
 %input image
-ImageOri = imread('pc-01.jpg');
+ImageOri = imread('image/pc-01.jpg');
 figure, imshow(ImageOri), title('Original Image')
 
 %Convert image from RGB to HSV
